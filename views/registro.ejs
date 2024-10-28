@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="body_registro">
+    <div class="wrapper_registro">
+        <form action="/newuser" method="post" >
+            <h1>Registro</h1>
+            <div class="input-box_registro">
+                <input type="text" id="name-registro" name="name" placeholder="Name" required>
+                <i class='bx bx-wink-tongue'></i>            
+            </div>
+            <div class="input-box_registro">
+                <input type="text" id="email-registro" name="email" placeholder="Email" required>
+                <i class='bx bx-user'></i>            
+            </div>
+            <div class="input-box_registro">
+                <input type="password" id="password-registro" name="password" placeholder="Password" required>
+                <i class='bx bx-lock-alt'></i>            
+            </div>
+            <button type="submit" class="btn_registro">Registrarse</button>
+            <div class="register-link_registro">
+                <p>¿Ya tienes cuenta? <a href="#">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

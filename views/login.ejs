@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/styleLog.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="body_login">
+    <div class="wrapper_login">
+        <form action="/logUser" method="post" >
+            <h1>Login</h1>
+            <div class="input-box_login">
+                <input type="text" id="email" placeholder="Email" name="email" required>
+                <i class='bx bx-envelope'></i>
+            </div>
+            <div class="input-box_login">
+                <input type="password" id="password" placeholder="Password" name="password" required>
+                <i class='bx bx-lock-alt'></i>            
+            </div>
+            <button type="submit" class="btn_login">Login</button>
+            <div class="register-link_login">
+                <p>¿No tienes cuenta? <a href="/reg">Registrate</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
